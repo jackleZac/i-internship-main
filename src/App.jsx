@@ -13,10 +13,10 @@ function App() {
       <Router>
         <Header />  
         <Routes>
-            <Route exact path='/' element={<Dashboard />} />
-            <Route path='/applications' element={<Applications />} />
-            <Route path='/about' element={<About />} />
-            <Route path='/apply/:id' element={<ApplyForm />} />
+            <Route exact path='/i-internship-main' element={<Dashboard />} />
+            <Route path='/i-internship-main/applications' element={<Applications />} />
+            <Route path='/i-internship-main/about' element={<About />} />
+            <Route path='/i-internship-main/apply/:id' element={<ApplyForm />} />
         </Routes>
       </Router>
   )
