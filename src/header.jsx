@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 let navigation = [
     { name: 'HOME', href: '/i-internship-main', current: false},
     { name: 'APPLICATION', href: '/i-internship-main/applications', current: false},
-    { name: 'ABOUT US', href: '/i-internship-main//about', current: false}
+    { name: 'ABOUT US', href: '/i-internship-main/about', current: false}
 ]
 
 export const Header = () => {
