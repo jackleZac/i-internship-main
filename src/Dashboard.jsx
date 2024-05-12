@@ -39,7 +39,7 @@ export default function Dashboard() {
                   {post.company}
                   </p>
                   <p className="text-gray-600 mb-2">{post.location} | {post.duration}</p>
-                  <Link to={`/apply/${post.id}`} className="group">
+                  <Link to={`/i-internship-main/apply/${post.id}`} className="group">
                     <button className='border border-sky-500 py-1 px-4 rounded-md'>Apply</button>
                   </Link>
                 </div>
